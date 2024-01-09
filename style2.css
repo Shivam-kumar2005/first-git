@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right,rgb(45, 45, 182),rgb(58, 184, 219));
+}
+.cantainer{
+    max-width: 1000px;
+    margin: auto;
+    
+   
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+header p{
+    color: white;
+    margin-right:0px ;
+}
+nav a{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.btn1{
+    
+    padding: 0.4rem;
+    border: 1px solid white;
+   
+    background-color:rgb(58, 184, 219);
+    color: white;
+    border-radius: 2px;
+
+}
+main{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    color: white;
+    font-size: 55px;
+    margin: 20px 0px;
+
+
+}
+.link{
+    text-decoration: none;
+    color: rgb(145, 140, 140);
+}
+.second{
+    color: white;
+    margin: 20px 0px;
+}
+.form{
+    /* background-color:white ; */
+    padding: 3rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px  20px , -4px -4px  20px;
+}
+.imputform{
+    margin:15px 0px;
+    
+}
+.info{
+    width: 100%;
+    padding: 0.5rem;
+    background-color: bisque;
+    border: 0px;
+    border-radius: 2px;
+}
+.reg{
+    margin-top: 20px;
+    width: 100%;
+    padding: 0.3rem;
+    border: 0px;
+    border-radius: 25px;
+    background-color: blue;
+    color: white;
+}
+.btn{
+    width: 50%;
+    padding: 0.3rem;
+    border: 0px;
+    border-radius: 25px;
+    background-color: green;
+    color: white;
+}
